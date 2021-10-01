@@ -12,7 +12,7 @@ body {
   background-color: #f5f5f5;
 }
 
-/* HEADER */
+/*   HEADER   */
 
 .title {
   width: 100%;
@@ -30,4 +30,19 @@ header p {
   padding-top: 100px;
   width: 100%;
   text-align: center;
+}
+
+/*   PROYECTS   */
+
+/* Proyect Cards */
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.proyect-card {
+  width: 325px;
+  background: #c4c4c4 no-repeat;
+  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 1);
 }
