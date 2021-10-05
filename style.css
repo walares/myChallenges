@@ -128,3 +128,17 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+@media only screen and (max-width: 800px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .right {
+    text-align: center;
+  }
+  .guess {
+    margin-top: 45px;
+  }
+}
