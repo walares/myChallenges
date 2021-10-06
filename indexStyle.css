@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 
-/*FIXME  pon el max-width en los contenedores dentro del body. */
 * {
   box-sizing: border-box;
   padding: 0;

@@ -6,16 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="PENDIENTE" />
     <title>JS30Drums</title>
+    <link rel="stylesheet" href="drumsStyle.css" />
   </head>
   <body>
-    <div class="key"></div>
-    <div class="key"></div>
-    <div class="key"></div>
-    <div class="key"></div>
-    <div class="key"></div>
-    <div class="key"></div>
-    <div class="key"></div>
-    <div class="key"></div>
-    <div class="key"></div>
+    <section>
+      <!-- utilizo el atributo data-key para relacionarlo con el audio luego-->
+      <div class="key" data-key="KeyA">
+        <kbd>A</kbd>
+        <span class="sound">clap</span>
+      </div>
+      <div class="key" data-key="KeyS">
+        <kbd>S</kbd>
+        <span class="sound">hihat</span>
+      </div>
+      <div class="key" data-key="KeyD">
+        <kbd>D</kbd>
+        <span class="sound">kick</span>
+      </div>
+      <div class="key" data-key="KeyF">
+        <kbd>F</kbd>
+        <span class="sound">openhat</span>
+      </div>
+      <div class="key" data-key="KeyG">
+        <kbd>G</kbd>
+        <span class="sound">boom</span>
+      </div>
+      <div class="key" data-key="KeyH">
+        <kbd>H</kbd>
+        <span class="sound">ride</span>
+      </div>
+      <div class="key" data-key="KeyJ">
+        <kbd>J</kbd>
+        <span class="sound">snare</span>
+      </div>
+      <div class="key" data-key="KeyK">
+        <kbd>K</kbd>
+        <span class="sound">tom</span>
+      </div>
+      <div class="key" data-key="KeyL">
+        <kbd>L</kbd>
+        <span class="sound">tink</span>
+      </div>
+    </section>
+
+    <audio data-key="KeyA" src="sounds/clap.wav"></audio>
+    <audio data-key="KeyS" src="sounds/hihat.wav"></audio>
+    <audio data-key="KeyD" src="sounds/kick.wav"></audio>
+    <audio data-key="KeyF" src="sounds/openhat.wav"></audio>
+    <audio data-key="KeyG" src="sounds/boom.wav"></audio>
+    <audio data-key="KeyH" src="sounds/ride.wav"></audio>
+    <audio data-key="KeyJ" src="sounds/snare.wav"></audio>
+    <audio data-key="KeyK" src="sounds/tom.wav"></audio>
+    <audio data-key="KeyL" src="sounds/tink.wav"></audio>
+
+    <script src="drums.js"></script>
   </body>
 </html>
