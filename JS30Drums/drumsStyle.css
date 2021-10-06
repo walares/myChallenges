@@ -13,6 +13,7 @@ html {
 
 section {
   display: flex;
+  flex-wrap: wrap;
   flex: 1;
   min-height: 100vh;
   align-items: center;
