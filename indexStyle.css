@@ -76,6 +76,10 @@ hr {
   background-image: url(indexImgs/404.png);
 }
 
+.drums {
+  background-image: url(indexImgs/drumsimg.png);
+}
+
 @media only screen and (min-width: 800px) {
   .proyect-card {
     width: 604px;
