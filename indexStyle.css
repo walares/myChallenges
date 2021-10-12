@@ -66,6 +66,7 @@ hr {
 
 .main-content {
   padding-top: 70px;
+  padding-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -83,15 +84,19 @@ hr {
 }
 
 .jsGame {
-  background-image: url(indexImgs/jsGame.png);
+  background-image: url("indexImgs/jsGame.png");
 }
 
 .img404 {
-  background-image: url(indexImgs/404.png);
+  background-image: url("indexImgs/404.png");
 }
 
 .drums {
-  background-image: url(indexImgs/drumsimg.png);
+  background-image: url("indexImgs/drumsimg.png");
+}
+
+.jsClock {
+  background-image: url("indexImgs/clockCover.png");
 }
 
 @media only screen and (min-width: 800px) {
